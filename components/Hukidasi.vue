@@ -3,7 +3,7 @@
   <div class="zisaku">
     <div class="zisaku-img">自作</div>
   </div>
-  <h1 class="toptitle"><a href="https://ririo08.github.io/ririo-Home-Page/">リリオのホームページ</a></h1>
+  <h1 class="toptitle"><NuxtLink to="/">リリオのホームページ</NuxtLink></h1>
 </div>
 </template>
 
