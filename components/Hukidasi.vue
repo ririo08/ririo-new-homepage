@@ -17,7 +17,7 @@
     display: block;
     width: 76px;
     height: 56px;
-    background-image: url("~assets/img/hukidasi.png");
+    background-image: url("~assets/img/hukidasi.webp");
     text-align: center;
     line-height: 2.7;
     position: absolute;
