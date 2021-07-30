@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="gnav-button">
-      <a id="menuButton" class="gnav-button_link" href="javascript:void(0);">
+    <div class="gnav-button" :class="{'gnav-button_on': isActive}">
+      <a id="menuButton" class="gnav-button_link" @click="toggleMenu">
         <svg
           class="gnav-button_image"
           aria-hidden="true"
@@ -13,14 +13,14 @@
           viewBox="0 0 192 512"
         >
           <path
-            fill="currentColor"
+            fill="orange"
             d="M96 184c39.8 0 72 32.2 72 72s-32.2 72-72 72-72-32.2-72-72 32.2-72 72-72zM24 80c0 39.8 32.2 72 72 72s72-32.2 72-72S135.8 8 96 8 24 40.2 24 80zm0 352c0 39.8 32.2 72 72 72s72-32.2 72-72-32.2-72-72-72-72 32.2-72 72z"
           ></path>
         </svg>
       </a>
     </div>
     <nav class="gnav">
-      <ul class="gnav-ul">
+      <ul class="gnav-ul" :class="{'gnav-ul_on': isActive}">
         <li class="gnav-ul_title">Links</li>
         <li class="gnav-ul_li">
           <a href="https://ririo08.github.io/ririo-Home-Page/profile"
@@ -56,6 +56,21 @@
   </div>
 </template>
 
+<script>
+export default {
+  data(){
+    return{
+      isActive: false,
+    }
+  },
+  methods: {
+    toggleMenu(){
+      this.isActive = !this.isActive
+    }
+  }
+}
+</script>
+
 <style lang="scss">
 $themeColor: orange;
 @keyframes show {
@@ -87,6 +102,7 @@ $themeColor: orange;
       width: 40px;
       height: 100%;
       color: $themeColor;
+      cursor: pointer;
       border-right: solid 1px $themeColor;
       &:hover {
         color: $themeColor;
