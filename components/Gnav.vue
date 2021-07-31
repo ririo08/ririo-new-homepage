@@ -23,25 +23,16 @@
       <ul class="gnav-ul" :class="{'gnav-ul_on': isActive}">
         <li class="gnav-ul_title">Links</li>
         <li class="gnav-ul_li">
-          <a href="https://ririo08.github.io/ririo-Home-Page/profile"
-            >リリオのプロフィール</a
-          >
+          <NuxtLink to="/profile">リリオのプロフィール</NuxtLink>
         </li>
         <li class="gnav-ul_li">
-          <a href="https://ririo08.github.io/ririo-Home-Page/pcSpec"
-            >PCと周辺機器のページ</a
-          >
+          <NuxtLink to="/pcSpec">PCと周辺機器のページ</NuxtLink>
         </li>
         <li class="gnav-ul_li">
-          <a href="https://ririo08.github.io/ririo-Home-Page/movielist"
-            >動画リスト</a
-          >
+          <NuxtLink to="/movielist">動画リスト</NuxtLink>
         </li>
-        <!-- <li class="gnav-ul_li"><a href="https://ririo08.github.io/ririo-Home-Page/letsPlayList">実況動画リスト</a></li> -->
         <li class="gnav-ul_li">
-          <a href="https://ririo08.github.io/ririo-Home-Page/HISTORY"
-            >活動記録</a
-          >
+          <NuxtLink to="/history">活動記録</NuxtLink>
         </li>
         <li class="gnav-ul_li">
           <a

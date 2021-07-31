@@ -66,7 +66,7 @@
             <h2>&nabla;&nbsp;プロフィール</h2>
           </div>
           <p class="wasplayedTitle">
-            <a href="./profile">詳しくはこちらをチェック</a>
+            <NuxtLink to="/profile">詳しくはこちらをチェック</NuxtLink>
           </p>
         </div>
       </div>
