@@ -6,7 +6,11 @@
         活動の記録です。現在{{ date }}日目（{{ year }}年目）！
       </p>
       <p class="history-details_p">
-        Twitchの記録はこちら →
+        YouTube Liveの記録はこちら →
+        <NuxtLink to="/history/live">YouTube Live HISTORY</NuxtLink>
+      </p>
+      <p class="history-details_p">
+        Twitchの過去の記録はこちら →
         <NuxtLink to="/history/twitch">Twitch Ririo08's HISTORY</NuxtLink>
       </p>
     </div>
