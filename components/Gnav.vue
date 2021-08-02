@@ -22,24 +22,23 @@
     <nav class="gnav">
       <ul class="gnav-ul" :class="{'gnav-ul_on': isActive}">
         <li class="gnav-ul_title">Links</li>
-        <li class="gnav-ul_li">
+        <li class="gnav-ul_li" @click="hideMenu">
           <NuxtLink to="/profile">リリオのプロフィール</NuxtLink>
         </li>
-        <li class="gnav-ul_li">
+        <li class="gnav-ul_li" @click="hideMenu">
           <NuxtLink to="/pcSpec">PCと周辺機器のページ</NuxtLink>
         </li>
-        <li class="gnav-ul_li">
+        <li class="gnav-ul_li" @click="hideMenu">
           <NuxtLink to="/movielist">動画リスト</NuxtLink>
         </li>
-        <li class="gnav-ul_li">
+        <li class="gnav-ul_li" @click="hideMenu">
           <NuxtLink to="/history">活動記録</NuxtLink>
         </li>
-        <li class="gnav-ul_li">
+        <li class="gnav-ul_li" @click="hideMenu">
           <a
-            id="randomurl"
-            href="https://www.twitch.tv/ririo08/"
+            href="https://www.youtube.com/RirioTV/"
             target="_blank"
-            >どこかへ飛ぶページ</a
+            >YouTube チャンネル</a
           >
         </li>
       </ul>
@@ -57,6 +56,17 @@ export default {
   methods: {
     toggleMenu(){
       this.isActive = !this.isActive
+      console.log("click")
+    },
+    hideMenu() {
+      if (window.innerWidth <= 1100) {
+        this.isActive = false
+      }
+    }
+  },
+  mounted() {
+    if(window.innerWidth >= 1600) {
+      this.isActive = true
     }
   }
 }
@@ -135,6 +145,20 @@ $themeColor: orange;
       padding-top: 20px;
       border-bottom: 2px solid $themeColor;
     }
+  }
+}
+
+@media screen and (max-width: 1099px) {
+  .gnav-button {
+    height: 120px;
+    border-top: solid 1px orange;
+  }
+  .gnav-button_image {
+    padding-top: 40px;
+  }
+  .gnav-button_on {
+    width: 350px;
+    height: 100%;
   }
 }
 </style>

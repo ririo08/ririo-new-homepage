@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'ririo-homepage',
+    title: 'リリオのホームページ',
     htmlAttrs: {
       lang: 'ja'
     },
@@ -18,14 +18,15 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/img/favicon.ico' }
     ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '@/assets/css/bootstrap-reboot.min.css',
-    '@/assets/css/global.scss'
+    '~assets/css/bootstrap-reboot.min.css',
+    '~assets/css/global.scss',
+    '~assets/css/style-Responsive.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

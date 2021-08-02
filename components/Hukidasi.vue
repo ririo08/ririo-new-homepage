@@ -26,4 +26,13 @@
     font-size: 20px;
   }
 }
+
+@media screen and (max-width: 479px) {
+  .toptitle {
+    font-size: 28px;
+  }
+  .zisaku-img {
+    left: 70px;
+  }
+}
 </style>

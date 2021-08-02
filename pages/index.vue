@@ -14,10 +14,7 @@
     </div>
     <div class="mainflex">
       <div class="mainflex1">
-        <picture>
-          <source srcset="~assets/img/topimage.webp" type="image/webp" />
-          <img src="~assets/img/topimage.png" alt="メインイメージ" />
-        </picture>
+          <img src="~assets/img/topimage.webp" type="image/webp" alt="メインイメージ" />
       </div>
       <div class="mainflex2">
         <div class="section">
@@ -192,4 +189,31 @@ $themeColor: orange;
 .nasi {
   text-decoration: line-through !important;
 }
+
+@media screen and (max-width: 900px) {
+  .mainMovieSection-wrapper {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mainflex1 {
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  header {
+    width: 300px;
+  }
+  .mainHead {
+    &-twitchBox {
+      &_title {
+        font-size: 24px;
+        line-height: 36px;
+      }
+    }
+  }
+}
+
 </style>

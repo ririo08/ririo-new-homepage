@@ -137,4 +137,13 @@ export default {
 .historyRed {
   color: #a80000;
 }
+
+@media screen and (max-width: 768px) {
+  .historyList-li {
+    margin-bottom: 30px;
+  }
+  .historyList-li_date {
+    display: block;
+  }
+}
 </style>
