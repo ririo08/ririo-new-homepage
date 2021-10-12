@@ -23,10 +23,10 @@
           </div>
           <div class="playtitle">
             <dl>
-              <dt>大神 絶景版</dt>
+              <dt>ショート動画</dt>
               <dd>
                 <a
-                  href="https://www.youtube.com/watch?v=4OICz5_d3Q4&list=PL_KrJ2Q-UZsGxmrC9YajVU2NSWjV5Y_Zq"
+                  href="https://www.youtube.com/watch?v=fbCT2s9gQ9o&list=PL_KrJ2Q-UZsHLONny2JN01LP2gbNCZRzM"
                   target="_blank"
                   >YouTube Playlist</a
                 >
@@ -52,7 +52,7 @@
               alt=""
             />
             <p class="mainHead-twitchBox_title">
-              <a href="https://www.youtube.com/channel/UCyRnuuwAPPLaGLf_xGykMPA"
+              <a href="https://www.youtube.com/channel/UCyRnuuwAPPLaGLf_xGykMPA" target="_blank"
                 >リリオの配信局</a
               >
             </p>
