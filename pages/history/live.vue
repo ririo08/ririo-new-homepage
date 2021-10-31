@@ -10,6 +10,7 @@
     <div class="historyList">
       <ul class="historyList-ul">
           <!-- <li class="historyList-li historyRed"><span class="historyList-li_date">2020</span>再生回数：6,758回 投稿数：135本</li> -->
+          <li class="historyList-li"><span class="historyList-li_date">2021/10/31</span>総再生数10,000回突破</li>
           <li class="historyList-li"><span class="historyList-li_date">2021/10/02</span>累計配信500時間突破</li>
           <li class="historyList-li"><span class="historyList-li_date">2021/06/12</span>累計配信100時間突破</li>
       </ul>

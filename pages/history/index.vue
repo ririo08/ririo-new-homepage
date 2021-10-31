@@ -17,6 +17,7 @@
     <div class="historyList">
       <ul class="historyList-ul">
           <!-- <li class="historyList-li historyRed"><span class="historyList-li_date">2020</span>再生回数：6,758回 投稿数：135本</li> -->
+          <li class="historyList-li"><span class="historyList-li_date">2021/10/29</span>総再生回数200,000回突破</li>
           <li class="historyList-li"><span class="historyList-li_date">2021/10/07</span>メインチャンネル登録者数200人突破</li>
           <li class="historyList-li"><span class="historyList-li_date">2021/09/08</span>TikTok フォロワー10人達成</li>
           <li class="historyList-li"><span class="historyList-li_date">2021/09/04</span>TikTok いいね100突破</li>
@@ -26,6 +27,7 @@
           <li class="historyList-li"><span class="historyList-li_date">2021/05/03</span>総再生回数50,000回突破</li>
           <li class="historyList-li"><span class="historyList-li_date">2021/04/09</span>動画投稿数500本突破</li>
           <li class="historyList-li"><span class="historyList-li_date">2021/03/21</span><a href="https://youtu.be/fbCT2s9gQ9o" target="_blank" rel="noopener noreferrer">1つの動画</a> が1,0000回再生突破</li>
+          <li class="historyList-li"><span class="historyList-li_date">2021/03/03</span>ショート動画投稿を開始</li>
           <li class="historyList-li"><span class="historyList-li_date">2021/02/03</span>活動開始8周年！</li>
       </ul>
       <ul class="historyList-ul">
