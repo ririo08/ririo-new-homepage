@@ -14,10 +14,10 @@
         <p>0-1 A-Z あ-ん シリーズ順で並べています。</p>
 
         <dt class="listTable-title" style="color: rgb(185, 89, 9)">
-          Watching Stream video
+          一緒に見ようシリーズ
         </dt>
-        <dd class="listTable-links Detailink">
-          <a href="./detail/WatchStreamVideos.html" target="piframe">Detail</a>
+        <dd class="listTable-links youlink">
+          <a href="https://www.youtube.com/playlist?list=PL_KrJ2Q-UZsG_1EC0W9k71ubsCSemBZZY" target="piframe">YouTube</a>
         </dd>
 
         <dt class="listTable-title">Apex Legends</dt>
@@ -51,6 +51,15 @@
           >
         </dd>
 
+        <dt class="listTable-title">Control</dt>
+        <dd class="listTable-links youlink">
+          <a
+            href="https://www.youtube.com/playlist?list=PLwQLZEoAUfGhhvFtp8QvAS3OK0jyuyZ3d"
+            target="_blank"
+            >配信アーカイブ</a
+          >
+        </dd>
+
         <dt class="listTable-title">DAEMON X MACHINA prototype orders</dt>
         <dd class="listTable-links youlink">
           <a href="https://youtu.be/dZvV9s3YxNA" target="_blank">実況動画</a>
@@ -71,6 +80,11 @@
             href="https://www.youtube.com/playlist?list=PLwQLZEoAUfGj76six9DHdMq0vWvwrZ4lU"
             target="_blank"
             >配信アーカイブ</a
+          >
+          <a
+            href="https://www.youtube.com/watch?v=6l56MYkR3vk&list=PL_KrJ2Q-UZsGKO33rExMtuFhKBu8i6sZx"
+            target="_blank"
+            >実況動画</a
           >
         </dd>
 
@@ -252,6 +266,20 @@
         <dd class="listTable-links youlink">
           <a
             href="https://www.youtube.com/playlist?list=PLwQLZEoAUfGj1zCaVOyO0LlKr4aiTOE3T"
+            target="_blank"
+            >配信アーカイブ</a
+          >
+          <a
+            href="https://www.youtube.com/watch?v=RxwUU2REvSA&list=PL_KrJ2Q-UZsGjk8zhEKSPF-Izis9-Krvf"
+            target="_blank"
+            >実況動画</a
+          >
+        </dd>
+
+        <dt class="listTable-title updating">アンチャーテッド コレクション</dt>
+        <dd class="listTable-links youlink">
+          <a
+            href="https://www.youtube.com/playlist?list=PLwQLZEoAUfGg6RdjgQJBXGIRyYlO1nCbR"
             target="_blank"
             >配信アーカイブ</a
           >
@@ -462,7 +490,7 @@
           プロジェクトセカイ カラフルステージ！ feat.初音ミク
         </dt>
         <dd class="listTable-links youlink">
-          <a href="https://youtu.be/a1qitDgnb10" target="_blank">実況動画</a>
+          <a href="https://www.youtube.com/playlist?list=PL_KrJ2Q-UZsHAZtegABz3BqmfVjG856UE" target="_blank">実況動画</a>
         </dd>
 
         <dt class="listTable-title">ベヨネッタ</dt>
