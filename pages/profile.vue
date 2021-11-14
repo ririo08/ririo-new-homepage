@@ -45,19 +45,19 @@
       <ul>
         <li>
           <a
-            href="https://www.twitch.tv/ririo08"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Twitch</a
-          >配信サイト
-        </li>
-        <li>
-          <a
-            href="https://www.youtube.com/channel/UC87SI6KnGObjTObcIsNISHA"
+            href="https://www.youtube.com/c/RirioTV"
             target="_blank"
             rel="noopener noreferrer"
             >YouTube</a
-          >動画サイト
+          >メインチャンネル
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/channel/UCyRnuuwAPPLaGLf_xGykMPA"
+            target="_blank"
+            rel="noopener noreferrer"
+            >YouTube</a
+          >配信チャンネル
         </li>
         <li>
           <a
