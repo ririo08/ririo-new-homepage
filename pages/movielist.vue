@@ -76,16 +76,8 @@
 
         <dt class="listTable-title">Death Stranding</dt>
         <dd class="listTable-links youlink">
-          <a
-            href="https://www.youtube.com/playlist?list=PLwQLZEoAUfGj76six9DHdMq0vWvwrZ4lU"
-            target="_blank"
-            >配信アーカイブ</a
-          >
-          <a
-            href="https://www.youtube.com/watch?v=6l56MYkR3vk&list=PL_KrJ2Q-UZsGKO33rExMtuFhKBu8i6sZx"
-            target="_blank"
-            >実況動画</a
-          >
+          <a href="https://www.youtube.com/playlist?list=PLwQLZEoAUfGj76six9DHdMq0vWvwrZ4lU" target="_blank">配信アーカイブ</a>
+          <a href="https://www.youtube.com/watch?v=6l56MYkR3vk&list=PL_KrJ2Q-UZsGKO33rExMtuFhKBu8i6sZx" target="_blank">実況動画</a>
         </dd>
 
         <dt class="listTable-title">Destiny Child</dt>
@@ -490,6 +482,7 @@
           プロジェクトセカイ カラフルステージ！ feat.初音ミク
         </dt>
         <dd class="listTable-links youlink">
+          <a href="https://www.youtube.com/playlist?list=PLwQLZEoAUfGgnJ209-L2XFwg8ZfJWC2cL" target="_blank">配信アーカイブ</a>
           <a href="https://www.youtube.com/playlist?list=PL_KrJ2Q-UZsHAZtegABz3BqmfVjG856UE" target="_blank">実況動画</a>
         </dd>
 
@@ -562,6 +555,15 @@
         <dd class="listTable-links youlink">
           <a
             href="https://www.youtube.com/playlist?list=PLwQLZEoAUfGidWic_wuhNOUKc0PTrJCzb"
+            target="_blank"
+            >配信アーカイブ</a
+          >
+        </dd>
+
+        <dt class="listTable-title">メトロイドドレッド</dt>
+        <dd class="listTable-links youlink">
+          <a
+            href="https://www.youtube.com/playlist?list=PLwQLZEoAUfGina2vq5NA6nDPxyvaYghR3"
             target="_blank"
             >配信アーカイブ</a
           >
