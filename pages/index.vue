@@ -5,7 +5,7 @@
       <div class="mainMovieSection-wrapper">
         <iframe
           class="mainMovieSection-wrapper_youTube"
-          src="https://www.youtube.com/embed/videoseries?list=PL_KrJ2Q-UZsEJYkQfTt3RInHkGoc3sPtu"
+          src="https://www.youtube.com/embed/videoseries?list=PL_KrJ2Q-UZsHZjudyVNrJUk1fq4ObAP0F"
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
