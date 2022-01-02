@@ -85,6 +85,11 @@
           <a href="./detail/DestinyChild.html" target="piframe">Detail</a>
         </dd>
 
+        <dt class="listTable-title">Doodle Champion Island Games</dt>
+        <dd class="listTable-links youlink">
+          <a href="https://youtu.be/NdWatJCtKtk" target="_blank">配信アーカイブ</a>
+        </dd>
+
         <dt class="listTable-title updating">Fortnite</dt>
         <dd class="listTable-links youlink">
           <a
@@ -121,6 +126,24 @@
         <dd class="listTable-links youlink">
           <a
             href="https://www.youtube.com/playlist?list=PLwQLZEoAUfGj380k66QkojO1lO_A980be"
+            target="_blank"
+            >配信アーカイブ</a
+          >
+        </dd>
+
+        <dt class="listTable-title">JUDGE EYES:死神の遺言</dt>
+        <dd class="listTable-links youlink">
+          <a
+            href="https://www.youtube.com/playlist?list=PLwQLZEoAUfGgqEUeU2HbrRy_wP85hSjdL"
+            target="_blank"
+            >配信アーカイブ</a
+          >
+        </dd>
+
+        <dt class="listTable-title">The Matrix Awakens: An Unreal Engine 5 Experience</dt>
+        <dd class="listTable-links youlink">
+          <a
+            href="https://youtu.be/rLMMOaQZ4DY"
             target="_blank"
             >配信アーカイブ</a
           >
@@ -423,6 +446,15 @@
         <dd class="listTable-links youlink">
           <a
             href="https://www.youtube.com/watch?v=zqH7bOyPOns&list=PLwQLZEoAUfGh-izcsDLLQoXjj8Uquf4P7"
+            target="_blank"
+            >配信アーカイブ</a
+          >
+        </dd>
+
+        <dt class="listTable-title">東方紅魔郷 〜 the Embodiment of Scarlet Devil.</dt>
+        <dd class="listTable-links youlink">
+          <a
+            href="https://youtu.be/9bHvvx49k7U"
             target="_blank"
             >配信アーカイブ</a
           >
