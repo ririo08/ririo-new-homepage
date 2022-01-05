@@ -5,39 +5,17 @@
       <div class="profile-img"></div>
       <p class="profile-details_p">どうも、リリオです。</p>
       <p class="profile-details_p">
-        毎晩21時くらいからゲーム配信をしているぞ。<br />
-        Twitchで配信した録画を編集してYouTubeにアップロードするという形式を取っているので、新しいゲームをプレイできないのが悩みだ！<br />
-        基本的に編集で忙しいので、SplatoonやMinecraftなど編集しなくても良さげなゲームをプレイしがちだ！<br />
-        僕の動画制作スタイルは、基本ストーリーを楽しんでいくタイプなので、ストーリーを中心に、面白い部分を使って動画を作るぞ。<br />
+        毎晩21時くらいからゲーム配信をしているぞ。<br>
+        Twitchで配信した録画を編集してYouTubeにアップロードするという形式を取っているので、新しいゲームをプレイできないのが悩みだ！<br>
+        基本的に編集で忙しいので、SplatoonやMinecraftなど編集しなくても良さげなゲームをプレイしがちだ！<br>
+        僕の動画制作スタイルは、基本ストーリーを楽しんでいくタイプなので、ストーリーを中心に、面白い部分を使って動画を作るぞ。<br>
         あと、こんな場所まで見に来てくれてありがとうな！
       </p>
-      <blockquote class="twitter-tweet">
-        <p lang="ja" dir="ltr">
-          ガチマの結果出てた～ 竹え
-          <a
-            href="https://twitter.com/hashtag/Splatoon2?src=hash&amp;ref_src=twsrc%5Etfw"
-            >#Splatoon2</a
-          >
-          <a
-            href="https://twitter.com/hashtag/NintendoSwitch?src=hash&amp;ref_src=twsrc%5Etfw"
-            >#NintendoSwitch</a
-          >
-          <a href="https://t.co/m7dX7EWpjy">pic.twitter.com/m7dX7EWpjy</a>
-        </p>
-        &mdash; リリオ (@ririo08)
-        <a
-          href="https://twitter.com/ririo08/status/1246094397948616704?ref_src=twsrc%5Etfw"
-          >April 3, 2020</a
-        >
-      </blockquote>
-      <script
-        async
-        src="https://platform.twitter.com/widgets.js"
-        charset="utf-8"
-      ></script>
+      <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">11月のスコア出てた<br>まさかの500傑入った <a href="https://twitter.com/hashtag/Splatoon2?src=hash&amp;ref_src=twsrc%5Etfw">#Splatoon2</a> <a href="https://t.co/VuNcYCNdcf">pic.twitter.com/VuNcYCNdcf</a></p>&mdash; リリオ@金欠 (@ririo08) <a href="https://twitter.com/ririo08/status/1466049179848155136?ref_src=twsrc%5Etfw">December 1, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       <p class="profile-details_p">
-        一応実績を書いておくと、イカは最高値でガチアサリ1805位まで行きました。<br />
-        実際煮詰めれば500傑も狙えると思うけど、スタミナとメンタルが持たないのでこれが最高値！
+        スプラトゥーン2のプレイ時間が3,000時間を超えて、最高値はXP2600になりました。<br>
+        ガチマッチの頻度はそこまで高くなく、メインはナワバリバトルとリーグマッチが中心となっています。<br>
+        スプラ配信をしている時はリグマを募集している時もあるので、よかったら見てくれよな。
       </p>
     </div>
     <div class="profile-links">
