@@ -10,7 +10,7 @@
     <div class="historyList">
       <ul class="historyList-ul">
           <li class="historyList-li historyRed"><span class="historyList-li_date">2022</span></li>
-          <li class="historyList-li"><span class="historyList-li_date">2021/10/31</span>総再生数30,000回突破</li>
+          <li class="historyList-li"><span class="historyList-li_date">2022/05/28</span>総再生数30,000回突破</li>
       </ul>
       <ul class="historyList-ul">
           <li class="historyList-li historyRed"><span class="historyList-li_date">2021</span>配信時間：875時間（522時間）計1397時間 視聴回数：13,295回</li>
