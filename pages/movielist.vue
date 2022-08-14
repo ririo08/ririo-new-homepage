@@ -648,8 +648,24 @@
 <script>
 export default {
   data() {
-    return {
-    }
+    this.$axios.get('https://sheets.googleapis.com/v4/spreadsheets/1ZxI-QHaLyLTlERtTloxvnTFXO02onsMriR_UVSam6yE/values/list?key=AIzaSyAe5CX3okoCZT00uxT2ckdRv6oUJ3YNj9o').then(res => {
+      console.log(res.data)
+      const jsonData = res.data.values
+      const key1 = jsonData[0][0]
+      const key2 = jsonData[0][1]
+      const key3 = jsonData[0][2]
+      console.log(key1,key2,key3)
+
+      let movieList = []
+      for (let i = 1; i < jsonData.length; i++) {
+        let obj = {}
+        obj[key1] = jsonData[i][0]
+        obj[key2] = jsonData[i][1]
+        obj[key3] = jsonData[i][2]
+        movieList.push(obj)
+      }
+      console.log(movieList)
+    })
   },
   mounted() {
     this.count()
