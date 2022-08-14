@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/movielist", {data:[{}],fetch:{},mutations:void 0});
