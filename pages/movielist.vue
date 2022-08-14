@@ -27,12 +27,6 @@
             <a :href="item.MovieLink" target="_blank" v-if="item.MovieLink">実況動画</a>
           </dd>
         </div>
-        <!-- <dt class="listTable-title">Apex Legends</dt>
-        <dd class="listTable-links youlink">
-          <a href="https://www.youtube.com/playlist?list=PLwQLZEoAUfGjVTUcZNDgEg_qB_J6Crixt" target="_blank">配信アーカイブ</a>
-          <a href="https://www.youtube.com/watch?v=iz-05-jqLTI&list=PL_KrJ2Q-UZsG26RZn72FEApmTbcbnuV9P"
-            target="_blank">実況動画</a>
-        </dd> -->
       </div>
     </div>
   </div>
