@@ -35,7 +35,7 @@
 <script>
 export default {
   asyncData({ $axios }) {
-    return $axios.get('https://sheets.googleapis.com/v4/spreadsheets/1ZxI-QHaLyLTlERtTloxvnTFXO02onsMriR_UVSam6yE/values/list?key=AIzaSyAe5CX3okoCZT00uxT2ckdRv6oUJ3YNj9o')
+    return $axios.get('https://sheets.googleapis.com/v4/spreadsheets/1ZxI-QHaLyLTlERtTloxvnTFXO02onsMriR_UVSam6yE/values/movieList?key=AIzaSyAe5CX3okoCZT00uxT2ckdRv6oUJ3YNj9o')
     .then(res => {
       const jsonData = res.data.values
       const key1 = jsonData[0][0]
