@@ -6,7 +6,7 @@
         ここでは今までにプレイしたゲームの映像リンク等を貼っていきます。<br />
         実況は「実況動画」リンクから（リリオが編集して見やすくしたやつです。）<br />
         配信は「配信アーカイブ」リンクから！<br />
-        現在<span class="movielist-jstarget" id="movielist-jstarget"></span>シリーズを配信中！
+        現在<span class="movielist-jstarget" id="movielist-jstarget">{{ this.lockerStatus.length + 1 }}</span>シリーズを配信中！
       </p>
     </div>
     <div class="movielist-flex">
@@ -36,45 +36,30 @@
 export default {
   asyncData({ $axios }) {
     return $axios.get('https://sheets.googleapis.com/v4/spreadsheets/1ZxI-QHaLyLTlERtTloxvnTFXO02onsMriR_UVSam6yE/values/movieList?key=AIzaSyAe5CX3okoCZT00uxT2ckdRv6oUJ3YNj9o')
-    .then(res => {
-      const jsonData = res.data.values
-      const key1 = jsonData[0][0]
-      const key2 = jsonData[0][1]
-      const key3 = jsonData[0][2]
+      .then(res => {
+        const jsonData = res.data.values
+        const key1 = jsonData[0][0]
+        const key2 = jsonData[0][1]
+        const key3 = jsonData[0][2]
 
-      let movieList = []
-      for (let i = 1; i < jsonData.length; i++) {
-        let obj = {}
-        obj[key1] = jsonData[i][0]
-        obj[key2] = jsonData[i][1]
-        obj[key3] = jsonData[i][2]
-        movieList.push(obj)
-      }
+        let movieList = []
+        for (let i = 1; i < jsonData.length; i++) {
+          let obj = {}
+          obj[key1] = jsonData[i][0]
+          obj[key2] = jsonData[i][1]
+          obj[key3] = jsonData[i][2]
+          movieList.push(obj)
+        }
 
-      return { lockerStatus: movieList }
-    })
-  },
-  data() {
-  },
-  computed: {
-
-  },
-  mounted() {
-    this.count()
-    // console.log("mounted",this.lockerStatus)
-  },
-  methods: {
-    count() {
-      if (process.client) {
-        document.getElementById('movielist-jstarget').innerHTML = document.querySelectorAll('.listTable-title').length
-      }
-    },
-  },
+        return { lockerStatus: movieList }
+      })
+  }
 };
 </script>
 
 <style lang="scss">
 $themeColor: orange;
+
 .movielistContainer {
   margin-inline-start: auto;
   margin-inline-end: auto;
@@ -89,6 +74,7 @@ $themeColor: orange;
   opacity: 0.5;
   z-index: 8;
   display: none;
+
   &-active {
     display: block;
   }
@@ -116,6 +102,7 @@ $themeColor: orange;
     display: block;
     padding-left: 20px;
     margin-bottom: 1.5rem;
+
     a {
       margin-left: 0.5rem;
     }
