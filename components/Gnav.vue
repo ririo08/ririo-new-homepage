@@ -1,26 +1,17 @@
 <template>
   <div>
-    <div class="gnav-button" :class="{'gnav-button_on': isActive}">
+    <div class="gnav-button" :class="{ 'gnav-button_on': isActive }">
       <a id="menuButton" class="gnav-button_link" @click="toggleMenu">
-        <svg
-          class="gnav-button_image"
-          aria-hidden="true"
-          focusable="false"
-          data-prefix="fas"
-          data-icon="ellipsis-v"
-          role="img"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 192 512"
-        >
-          <path
-            fill="orange"
-            d="M96 184c39.8 0 72 32.2 72 72s-32.2 72-72 72-72-32.2-72-72 32.2-72 72-72zM24 80c0 39.8 32.2 72 72 72s72-32.2 72-72S135.8 8 96 8 24 40.2 24 80zm0 352c0 39.8 32.2 72 72 72s72-32.2 72-72-32.2-72-72-72-72 32.2-72 72z"
-          ></path>
+        <svg class="gnav-button_image" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="ellipsis-v"
+          role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512">
+          <path fill="orange"
+            d="M96 184c39.8 0 72 32.2 72 72s-32.2 72-72 72-72-32.2-72-72 32.2-72 72-72zM24 80c0 39.8 32.2 72 72 72s72-32.2 72-72S135.8 8 96 8 24 40.2 24 80zm0 352c0 39.8 32.2 72 72 72s72-32.2 72-72-32.2-72-72-72-72 32.2-72 72z">
+          </path>
         </svg>
       </a>
     </div>
     <nav class="gnav">
-      <ul class="gnav-ul" :class="{'gnav-ul_on': isActive}">
+      <ul class="gnav-ul" :class="{ 'gnav-ul_on': isActive }">
         <li class="gnav-ul_title">Links</li>
         <li class="gnav-ul_li" @click="hideMenu">
           <NuxtLink to="/profile">リリオのプロフィール</NuxtLink>
@@ -35,11 +26,7 @@
           <NuxtLink to="/history">活動記録</NuxtLink>
         </li>
         <li class="gnav-ul_li" @click="hideMenu">
-          <a
-            href="https://www.youtube.com/RirioTV/"
-            target="_blank"
-            >YouTube チャンネル</a
-          >
+          <a href="https://www.youtube.com/RirioTV/" target="_blank">YouTube チャンネル</a>
         </li>
       </ul>
     </nav>
@@ -48,24 +35,24 @@
 
 <script>
 export default {
-  data(){
-    return{
+  data() {
+    return {
       isActive: false,
     }
   },
   methods: {
-    toggleMenu(){
+    toggleMenu() {
       this.isActive = !this.isActive
       console.log("click")
     },
     hideMenu() {
-      if (window.innerWidth <= 1100) {
+      if (window.innerWidth <= 1700) {
         this.isActive = false
       }
     }
   },
   mounted() {
-    if(window.innerWidth >= 1600) {
+    if (window.innerWidth >= 1700) {
       this.isActive = true
     }
   }
@@ -74,6 +61,7 @@ export default {
 
 <style lang="scss">
 $themeColor: orange;
+
 @keyframes show {
   from {
     opacity: 0;
@@ -87,6 +75,7 @@ $themeColor: orange;
 .gnav {
   position: fixed;
   z-index: 10;
+
   &-button {
     position: fixed;
     bottom: 0;
@@ -98,6 +87,7 @@ $themeColor: orange;
     border-right: solid 1px $themeColor;
     box-shadow: 4px 4px 10px -5px black;
     transition: all 300ms 0s ease;
+
     &_link {
       display: block;
       width: 40px;
@@ -105,10 +95,12 @@ $themeColor: orange;
       color: $themeColor;
       cursor: pointer;
       border-right: solid 1px $themeColor;
+
       &:hover {
         color: $themeColor;
       }
     }
+
     &_image {
       display: block;
       margin: auto;
@@ -120,6 +112,7 @@ $themeColor: orange;
       width: 350px;
     }
   }
+
   &-ul {
     display: none;
     position: fixed;
@@ -153,9 +146,11 @@ $themeColor: orange;
     height: 120px;
     border-top: solid 1px orange;
   }
+
   .gnav-button_image {
     padding-top: 40px;
   }
+
   .gnav-button_on {
     width: 350px;
     height: 100%;
