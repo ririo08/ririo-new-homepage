@@ -18,7 +18,6 @@
       <ul class="historyList-ul">
         <span v-for="item in this.lockerStatus" :key="item.Id">
           <li class="historyList-li historyRed" v-if="item.IsYear">
-            <br />
             <span class="historyList-li_date">
               {{ item.Date }}
             </span>
@@ -57,8 +56,6 @@ export default {
           historyList.push(obj)
         }
         historyList.reverse()
-        console.log(historyList)
-
         return { lockerStatus: historyList }
       })
   },
@@ -100,10 +97,19 @@ export default {
 }
 
 .historyRed {
-  color: #a80000;
+  margin-top: 3rem;
+  color: #ec3d3d;
 }
 
 @media screen and (max-width: 768px) {
+  .history-details_p {
+    margin-left: 5px;
+  }
+
+  .historyList-ul {
+    padding-left: .5rem;
+  }
+
   .historyList-li {
     margin-bottom: 30px;
   }
