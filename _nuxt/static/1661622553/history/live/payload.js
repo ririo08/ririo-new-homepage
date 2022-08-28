@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/history/live", {data:[{}],fetch:{},mutations:void 0});
