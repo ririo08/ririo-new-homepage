@@ -4,7 +4,7 @@
       <h2 class="mainMovieSection-h2">最新の動画</h2>
       <div class="mainMovieSection-wrapper">
         <iframe class="mainMovieSection-wrapper_youTube"
-          src="https://www.youtube.com/embed/videoseries?list=PL_KrJ2Q-UZsHZjudyVNrJUk1fq4ObAP0F" frameborder="0"
+          src="https://www.youtube.com/embed/videoseries?list=PL_KrJ2Q-UZsF6b9AXCOS1aKAFDW-VlMIW" frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
           loading="lazy"></iframe>
       </div>
