@@ -36,8 +36,11 @@
 <script>
 export default {
   asyncData({ $axios }) {
-    return $axios.get('https://sheets.googleapis.com/v4/spreadsheets/1ZxI-QHaLyLTlERtTloxvnTFXO02onsMriR_UVSam6yE/values/history-index?key=AIzaSyAe5CX3okoCZT00uxT2ckdRv6oUJ3YNj9o')
-      .then(res => {
+    return $axios
+      .get(
+        'https://sheets.googleapis.com/v4/spreadsheets/1ZxI-QHaLyLTlERtTloxvnTFXO02onsMriR_UVSam6yE/values/history-index?key=AIzaSyAe5CX3okoCZT00uxT2ckdRv6oUJ3YNj9o'
+      )
+      .then((res) => {
         const jsonData = res.data.values
         const key1 = jsonData[0][0]
         const key2 = jsonData[0][1]
@@ -66,14 +69,14 @@ export default {
     }
   },
   mounted: function () {
-    let a = Date.parse("2013/02/03")
+    let a = Date.parse('2013/02/03')
     let b = new Date()
     let c = (b - a) / 1000 / 60 / 60 / 24
     let d = Math.round(c / 365) * 1 + 1
     c = Math.floor(c)
     this.date = c
     this.year = d
-  }
+  },
 }
 </script>
 
@@ -107,7 +110,7 @@ export default {
   }
 
   .historyList-ul {
-    padding-left: .5rem;
+    padding-left: 0.5rem;
   }
 
   .historyList-li {

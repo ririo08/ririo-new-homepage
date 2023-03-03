@@ -1,35 +1,35 @@
 <template>
-<div>
-<div>
-    <Hukidasi/>
-    <div class="accessCounterBox">
-    <div class="accessCounterTarget">あなたは{{ counter }}人目の訪問者です。</div>
+  <div>
+    <div>
+      <Hukidasi />
+      <div class="accessCounterBox">
+        <div class="accessCounterTarget">
+          あなたは{{ counter }}人目の訪問者です。
+        </div>
+      </div>
+      <Gnav />
     </div>
-    <Gnav/>
-</div>
-</div>
+  </div>
 </template>
 
 <script>
 export default {
-  data () {
+  data() {
     return {
       counter: 0,
     }
   },
-  head () {
-    return {
-    }
+  head() {
+    return {}
   },
-  methods: {
-  },
-  created: function(){
+  methods: {},
+  created: function () {
     // this.counter = Math.floor(Math.random() * 100000000) + 1;
     // console.log('1')
   },
-  mounted: function(){
-    this.counter = Math.floor(Math.random() * 100000000) + 1;
-  //   console.log('1')
+  mounted: function () {
+    this.counter = Math.floor(Math.random() * 100000000) + 1
+    //   console.log('1')
   },
 }
 </script>

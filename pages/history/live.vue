@@ -3,7 +3,7 @@
     <div class="globalBox">
       <h1 class="globalBox-title">YouTube Live history</h1>
       <p class="history-details_p">
-        活動の記録です。現在{{ date }}日目（{{ year }}年目）！<br>
+        活動の記録です。現在{{ date }}日目（{{ year }}年目）！<br />
         （）付きの配信時間はYouTubeではなくTwitchの配信時間となります。
       </p>
     </div>
@@ -29,8 +29,11 @@
 <script>
 export default {
   asyncData({ $axios }) {
-    return $axios.get('https://sheets.googleapis.com/v4/spreadsheets/1ZxI-QHaLyLTlERtTloxvnTFXO02onsMriR_UVSam6yE/values/history-live?key=AIzaSyAe5CX3okoCZT00uxT2ckdRv6oUJ3YNj9o')
-      .then(res => {
+    return $axios
+      .get(
+        'https://sheets.googleapis.com/v4/spreadsheets/1ZxI-QHaLyLTlERtTloxvnTFXO02onsMriR_UVSam6yE/values/history-live?key=AIzaSyAe5CX3okoCZT00uxT2ckdRv6oUJ3YNj9o'
+      )
+      .then((res) => {
         const jsonData = res.data.values
         const key1 = jsonData[0][0]
         const key2 = jsonData[0][1]
@@ -59,14 +62,14 @@ export default {
     }
   },
   mounted: function () {
-    let a = Date.parse("2019/09/09")
+    let a = Date.parse('2019/09/09')
     let b = new Date()
     let c = (b - a) / 1000 / 60 / 60 / 24
     let d = Math.round(c / 365) * 1 + 1
     c = Math.floor(c)
     this.date = c
     this.year = d
-  }
+  },
 }
 </script>
 

@@ -29,8 +29,8 @@
   .pcSpec-list {
     display: block;
     -webkit-box-pack: normal;
-        -ms-flex-pack: normal;
-            justify-content: normal;
+    -ms-flex-pack: normal;
+    justify-content: normal;
   }
   .pcSpec-description {
     width: 100%;

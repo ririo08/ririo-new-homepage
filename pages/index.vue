@@ -3,15 +3,23 @@
     <div class="mainMovieSection">
       <h2 class="mainMovieSection-h2">最新の動画</h2>
       <div class="mainMovieSection-wrapper">
-        <iframe class="mainMovieSection-wrapper_youTube"
-          src="https://www.youtube.com/embed/videoseries?list=PL_KrJ2Q-UZsF6b9AXCOS1aKAFDW-VlMIW" frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-          loading="lazy"></iframe>
+        <iframe
+          class="mainMovieSection-wrapper_youTube"
+          src="https://www.youtube.com/embed/videoseries?list=PL_KrJ2Q-UZsF6b9AXCOS1aKAFDW-VlMIW"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          loading="lazy"
+        ></iframe>
       </div>
     </div>
     <div class="mainflex">
       <div class="mainflex1">
-        <img src="~assets/img/topimage.webp" type="image/webp" alt="メインイメージ" />
+        <img
+          src="~assets/img/topimage.webp"
+          type="image/webp"
+          alt="メインイメージ"
+        />
       </div>
       <div class="mainflex2">
         <div class="section">
@@ -22,13 +30,19 @@
             <dl>
               <dt>ショート動画</dt>
               <dd>
-                <a href="https://www.youtube.com/watch?v=fbCT2s9gQ9o&list=PL_KrJ2Q-UZsHLONny2JN01LP2gbNCZRzM"
-                  target="_blank">YouTube Playlist</a>
+                <a
+                  href="https://www.youtube.com/watch?v=fbCT2s9gQ9o&list=PL_KrJ2Q-UZsHLONny2JN01LP2gbNCZRzM"
+                  target="_blank"
+                  >YouTube Playlist</a
+                >
               </dd>
               <dt>プロジェクトセカイ</dt>
               <dd>
-                <a href="https://www.youtube.com/watch?v=4dNrvUDpTz4&list=PL_KrJ2Q-UZsHAZtegABz3BqmfVjG856UE"
-                  target="_blank">YouTube Playlist</a>
+                <a
+                  href="https://www.youtube.com/watch?v=4dNrvUDpTz4&list=PL_KrJ2Q-UZsHAZtegABz3BqmfVjG856UE"
+                  target="_blank"
+                  >YouTube Playlist</a
+                >
               </dd>
             </dl>
           </div>
@@ -38,10 +52,16 @@
             <h2>&nabla;&nbsp;YouTubeで絶賛配信中！</h2>
           </div>
           <div class="mainHead-twitchBox">
-            <img src="https://yt3.ggpht.com/ytc/AAUvwnh7KtLKW5mJ8u1Uh_JubOxkUdBcyfnx4hOv9uw5=s176-c-k-c0x00ffffff-no-rj"
-              alt="" />
+            <img
+              src="https://yt3.ggpht.com/ytc/AAUvwnh7KtLKW5mJ8u1Uh_JubOxkUdBcyfnx4hOv9uw5=s176-c-k-c0x00ffffff-no-rj"
+              alt=""
+            />
             <p class="mainHead-twitchBox_title">
-              <a href="https://www.youtube.com/channel/UCyRnuuwAPPLaGLf_xGykMPA" target="_blank">リリオの配信局</a>
+              <a
+                href="https://www.youtube.com/channel/UCyRnuuwAPPLaGLf_xGykMPA"
+                target="_blank"
+                >リリオの配信局</a
+              >
             </p>
           </div>
         </div>
@@ -59,7 +79,7 @@
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
 
 <style lang="scss">
@@ -68,7 +88,7 @@ $themeColor: orange;
 .mainbox {
   margin: auto;
   max-width: 1000px;
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   -webkit-text-size-adjust: 100％;
   position: relative;
 }
@@ -90,7 +110,7 @@ $themeColor: orange;
     margin: auto;
 
     &:before {
-      content: "";
+      content: '';
       display: block;
       padding-top: 56.25%;
     }

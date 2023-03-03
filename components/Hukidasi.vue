@@ -1,10 +1,10 @@
 <template>
-<div>
-  <div class="zisaku">
-    <div class="zisaku-img">自作</div>
+  <div>
+    <div class="zisaku">
+      <div class="zisaku-img">自作</div>
+    </div>
+    <h1 class="toptitle"><NuxtLink to="/">リリオのホームページ</NuxtLink></h1>
   </div>
-  <h1 class="toptitle"><NuxtLink to="/">リリオのホームページ</NuxtLink></h1>
-</div>
 </template>
 
 <style lang="scss">
@@ -17,7 +17,7 @@
     display: block;
     width: 76px;
     height: 56px;
-    background-image: url("~assets/img/hukidasi.webp");
+    background-image: url('~assets/img/hukidasi.webp');
     text-align: center;
     line-height: 2.7;
     position: absolute;

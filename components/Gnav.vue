@@ -2,11 +2,20 @@
   <div>
     <div class="gnav-button" :class="{ 'gnav-button_on': isActive }">
       <a id="menuButton" class="gnav-button_link" @click="toggleMenu">
-        <svg class="gnav-button_image" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="ellipsis-v"
-          role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512">
-          <path fill="orange"
-            d="M96 184c39.8 0 72 32.2 72 72s-32.2 72-72 72-72-32.2-72-72 32.2-72 72-72zM24 80c0 39.8 32.2 72 72 72s72-32.2 72-72S135.8 8 96 8 24 40.2 24 80zm0 352c0 39.8 32.2 72 72 72s72-32.2 72-72-32.2-72-72-72-72 32.2-72 72z">
-          </path>
+        <svg
+          class="gnav-button_image"
+          aria-hidden="true"
+          focusable="false"
+          data-prefix="fas"
+          data-icon="ellipsis-v"
+          role="img"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 192 512"
+        >
+          <path
+            fill="orange"
+            d="M96 184c39.8 0 72 32.2 72 72s-32.2 72-72 72-72-32.2-72-72 32.2-72 72-72zM24 80c0 39.8 32.2 72 72 72s72-32.2 72-72S135.8 8 96 8 24 40.2 24 80zm0 352c0 39.8 32.2 72 72 72s72-32.2 72-72-32.2-72-72-72-72 32.2-72 72z"
+          ></path>
         </svg>
       </a>
     </div>
@@ -26,7 +35,9 @@
           <NuxtLink to="/history">活動記録</NuxtLink>
         </li>
         <li class="gnav-ul_li" @click="hideMenu">
-          <a href="https://www.youtube.com/RirioTV/" target="_blank">YouTube チャンネル</a>
+          <a href="https://www.youtube.com/RirioTV/" target="_blank"
+            >YouTube チャンネル</a
+          >
         </li>
       </ul>
     </nav>
@@ -43,19 +54,19 @@ export default {
   methods: {
     toggleMenu() {
       this.isActive = !this.isActive
-      console.log("click")
+      console.log('click')
     },
     hideMenu() {
       if (window.innerWidth <= 1700) {
         this.isActive = false
       }
-    }
+    },
   },
   mounted() {
     if (window.innerWidth >= 1700) {
       this.isActive = true
     }
-  }
+  },
 }
 </script>
 

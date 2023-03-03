@@ -11,6 +11,6 @@ export default {
     }
     const redirectPath = '/' + param.replace(base, '')
     return redirect(redirectPath)
-  }
+  },
 }
 </script>
