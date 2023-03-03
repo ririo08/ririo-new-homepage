@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/pcSpec/detail", {data:[{}],fetch:{},mutations:void 0});
