@@ -24,7 +24,7 @@
       <div class="mainflex2">
         <div class="section">
           <div class="mainHead">
-            <h2>&nabla;&nbsp;動画更新中！</h2>
+            <h2>&nabla; 動画更新中！</h2>
           </div>
           <div class="playtitle">
             <dl>
@@ -49,25 +49,23 @@
         </div>
         <div class="section">
           <div class="mainHead">
-            <h2>&nabla;&nbsp;YouTubeで絶賛配信中！</h2>
+            <h2>&nabla; YouTubeで絶賛配信中！</h2>
           </div>
           <div class="mainHead-twitchBox">
             <img
-              src="https://yt3.ggpht.com/ytc/AAUvwnh7KtLKW5mJ8u1Uh_JubOxkUdBcyfnx4hOv9uw5=s176-c-k-c0x00ffffff-no-rj"
+              src="https://yt3.googleusercontent.com/KwAJD21h7q5EjeuL88m9P1qZv_eJlcH0V6nYCnCK8hUnpuIAzmLNi_EEKmwnX_MTmTvAgrfjTw=s176-c-k-c0x00ffffff-no-rj"
               alt=""
             />
             <p class="mainHead-twitchBox_title">
-              <a
-                href="https://www.youtube.com/channel/UCyRnuuwAPPLaGLf_xGykMPA"
-                target="_blank"
-                >リリオの配信局</a
-              >
+              <a href="https://www.youtube.com/@RirioCH" target="_blank">
+                リリオ
+              </a>
             </p>
           </div>
         </div>
         <div class="section">
           <div class="mainHead">
-            <h2>&nabla;&nbsp;プロフィール</h2>
+            <h2>&nabla; プロフィール</h2>
           </div>
           <p class="wasplayedTitle">
             <NuxtLink to="/profile">詳しくはこちらをチェック</NuxtLink>
