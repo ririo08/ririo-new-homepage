@@ -1,16 +1,14 @@
 <template>
   <div class="wrapper">
     <Header />
-    <Nuxt />
+    <slot />
     <footer>
       <small>@リリオ 2019</small>
     </footer>
   </div>
 </template>
 
-<script>
-export default {}
-</script>
+<script setup lang="ts"></script>
 
 <style lang="scss">
 $themeColor: orange;
