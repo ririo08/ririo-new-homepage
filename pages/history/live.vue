@@ -32,8 +32,8 @@ export default {
     return { list: [], date: 0, year: 0 }
   },
   async fetch() {
-    const res = await this.$axios.$get('https://ririo.dev/db/history-live.json')
-    this.list = res.reverse()
+    // const res = await this.$axios.$get('https://ririo.dev/db/history-live.json')
+    // this.list = res.reverse()
   },
   mounted: function () {
     let a = Date.parse('2019/09/09')

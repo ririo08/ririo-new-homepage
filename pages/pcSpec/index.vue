@@ -71,8 +71,8 @@ export default {
     return { list: [] }
   },
   async fetch() {
-    const res = await this.$axios.$get('https://ririo.dev/db/pc-gadget.json')
-    this.list = res
+    // const res = await this.$axios.$get('https://ririo.dev/db/pc-gadget.json')
+    // this.list = res
   },
 }
 </script>
