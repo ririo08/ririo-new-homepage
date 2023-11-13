@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   ssr: false,
 
   app: {
-    baseURL: '/Atsumori-clock-Overlay/',
+    baseURL: '/homepage/',
     head: {
       charset: 'utf-8',
       title: 'リリオのホームページ',
