@@ -1,3 +1,5 @@
+<script setup lang="ts"></script>
+
 <template>
   <div class="mainbox">
     <div class="mainMovieSection">
@@ -75,10 +77,6 @@
     </div>
   </div>
 </template>
-
-<script>
-export default {}
-</script>
 
 <style lang="scss">
 $themeColor: orange;
