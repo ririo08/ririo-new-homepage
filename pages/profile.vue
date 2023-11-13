@@ -26,11 +26,11 @@
           >December 1, 2021</a
         >
       </blockquote>
-      <script
+      <!-- <script
         async
         src="https://platform.twitter.com/widgets.js"
         charset="utf-8"
-      ></script>
+      ></script> -->
       <p class="profile-details_p">
         スプラトゥーン2のプレイ時間が3,000時間を超えて、最高値はXP2600になりました。<br />
         ガチマッチの頻度はそこまで高くなく、メインはナワバリバトルとリーグマッチが中心となっています。<br />
