@@ -1,6 +1,7 @@
 {
   "name": "ririo-homepage",
   "version": "1.0.0",
+  "type": "module",
   "private": true,
   "scripts": {
     "preinstall": "npx only-allow pnpm",
@@ -8,9 +9,12 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^2.6.4",
     "@types/node": "^20.11.16",
     "eslint": "^8.56.0",
     "nuxt": "^3.10.1",
