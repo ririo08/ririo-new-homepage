@@ -1,7 +1,7 @@
 {
   "name": "ririo-homepage",
-  "version": "1.0.0",
   "type": "module",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "preinstall": "npx only-allow pnpm",

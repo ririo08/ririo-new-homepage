@@ -1,16 +1,17 @@
-<template>
-  <div></div>
-</template>
 <script>
 export default {
   layout: 'blank',
   fetch({ base, redirect, query }) {
     const param = query.p
-    if (param === undefined) {
+    if (param === undefined)
       return redirect('/')
-    }
-    const redirectPath = '/' + param.replace(base, '')
+
+    const redirectPath = `/${param.replace(base, '')}`
     return redirect(redirectPath)
   },
 }
 </script>
+
+<template>
+  <div />
+</template>

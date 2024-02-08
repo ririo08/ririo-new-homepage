@@ -1,9 +1,15 @@
 <template>
   <div>
     <div class="zisaku">
-      <div class="zisaku-img">自作</div>
+      <div class="zisaku-img">
+        自作
+      </div>
     </div>
-    <h1 class="toptitle"><NuxtLink to="/">リリオのホームページ</NuxtLink></h1>
+    <h1 class="toptitle">
+      <NuxtLink to="/">
+        リリオのホームページ
+      </NuxtLink>
+    </h1>
   </div>
 </template>
 

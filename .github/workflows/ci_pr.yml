@@ -2,7 +2,7 @@ name: PR_ci
 
 on:
   pull_request:
-    branches: ['main']
+    branches: [main]
 
 jobs:
   generate_pr:
@@ -15,7 +15,7 @@ jobs:
       - name: Setup node env 🏗
         uses: actions/setup-node@v3
         with:
-          node-version: 'latest'
+          node-version: latest
 
       - name: Install pnpm 🍋
         uses: pnpm/action-setup@v2

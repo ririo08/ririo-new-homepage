@@ -1,3 +1,27 @@
+<script>
+export default {
+  data() {
+    return {
+      isActive: false,
+    }
+  },
+  mounted() {
+    if (window.innerWidth >= 1700)
+      this.isActive = true
+  },
+  methods: {
+    toggleMenu() {
+      this.isActive = !this.isActive
+      console.log('click')
+    },
+    hideMenu() {
+      if (window.innerWidth <= 1700)
+        this.isActive = false
+    },
+  },
+}
+</script>
+
 <template>
   <div>
     <div class="gnav-button" :class="{ 'gnav-button_on': isActive }">
@@ -15,60 +39,42 @@
           <path
             fill="orange"
             d="M96 184c39.8 0 72 32.2 72 72s-32.2 72-72 72-72-32.2-72-72 32.2-72 72-72zM24 80c0 39.8 32.2 72 72 72s72-32.2 72-72S135.8 8 96 8 24 40.2 24 80zm0 352c0 39.8 32.2 72 72 72s72-32.2 72-72-32.2-72-72-72-72 32.2-72 72z"
-          ></path>
+          />
         </svg>
       </a>
     </div>
     <nav class="gnav">
       <ul class="gnav-ul" :class="{ 'gnav-ul_on': isActive }">
-        <li class="gnav-ul_title">Links</li>
-        <li class="gnav-ul_li" @click="hideMenu">
-          <NuxtLink to="/profile">リリオのプロフィール</NuxtLink>
+        <li class="gnav-ul_title">
+          Links
         </li>
         <li class="gnav-ul_li" @click="hideMenu">
-          <NuxtLink to="/pcSpec">PCと周辺機器のページ</NuxtLink>
+          <NuxtLink to="/profile">
+            リリオのプロフィール
+          </NuxtLink>
         </li>
         <li class="gnav-ul_li" @click="hideMenu">
-          <NuxtLink to="/movielist">動画リスト</NuxtLink>
+          <NuxtLink to="/pcSpec">
+            PCと周辺機器のページ
+          </NuxtLink>
         </li>
         <li class="gnav-ul_li" @click="hideMenu">
-          <NuxtLink to="/history">活動記録</NuxtLink>
+          <NuxtLink to="/movielist">
+            動画リスト
+          </NuxtLink>
         </li>
         <li class="gnav-ul_li" @click="hideMenu">
-          <a href="https://www.youtube.com/RirioTV/" target="_blank"
-            >YouTube チャンネル</a
-          >
+          <NuxtLink to="/history">
+            活動記録
+          </NuxtLink>
+        </li>
+        <li class="gnav-ul_li" @click="hideMenu">
+          <a href="https://www.youtube.com/RirioTV/" target="_blank">YouTube チャンネル</a>
         </li>
       </ul>
     </nav>
   </div>
 </template>
-
-<script>
-export default {
-  data() {
-    return {
-      isActive: false,
-    }
-  },
-  methods: {
-    toggleMenu() {
-      this.isActive = !this.isActive
-      console.log('click')
-    },
-    hideMenu() {
-      if (window.innerWidth <= 1700) {
-        this.isActive = false
-      }
-    },
-  },
-  mounted() {
-    if (window.innerWidth >= 1700) {
-      this.isActive = true
-    }
-  },
-}
-</script>
 
 <style lang="scss">
 $themeColor: orange;

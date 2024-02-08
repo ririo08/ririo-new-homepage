@@ -1,3 +1,25 @@
+<script>
+export default {
+  data() {
+    return {
+      counter: 0,
+    }
+  },
+  head() {
+    return {}
+  },
+  created() {
+    // this.counter = Math.floor(Math.random() * 100000000) + 1;
+    // console.log('1')
+  },
+  mounted() {
+    this.counter = Math.floor(Math.random() * 100000000) + 1
+    //   console.log('1')
+  },
+  methods: {},
+}
+</script>
+
 <template>
   <div>
     <div>
@@ -11,28 +33,6 @@
     </div>
   </div>
 </template>
-
-<script>
-export default {
-  data() {
-    return {
-      counter: 0,
-    }
-  },
-  head() {
-    return {}
-  },
-  methods: {},
-  created: function () {
-    // this.counter = Math.floor(Math.random() * 100000000) + 1;
-    // console.log('1')
-  },
-  mounted: function () {
-    this.counter = Math.floor(Math.random() * 100000000) + 1
-    //   console.log('1')
-  },
-}
-</script>
 
 <style lang="scss">
 $themeColor: orange;

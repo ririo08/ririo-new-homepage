@@ -1,18 +1,32 @@
+<script lang="js">
+export default {
+  data() {
+    return { list: [] }
+  },
+  async fetch() {
+    // const res = await this.$axios.$get("https://ririo.dev/db/movie-list.json")
+    // this.list = res
+  },
+}
+</script>
+
 <template>
   <div>
     <div class="globalBox">
-      <h2 class="globalBox-title">動画リスト</h2>
+      <h2 class="globalBox-title">
+        動画リスト
+      </h2>
       <p>
         ここでは今までにプレイしたゲームの映像リンク等を貼っていきます。
-        <br />
+        <br>
         実況は「実況動画」リンクから（リリオが編集して見やすくしたやつです。）
-        <br />
+        <br>
         配信は「配信アーカイブ」リンクから！
-        <br />
+        <br>
       </p>
       <p>
         現在
-        <span class="movielist-jstarget" id="movielist-jstarget">
+        <span id="movielist-jstarget" class="movielist-jstarget">
           {{ list.length }}
         </span>
         シリーズを配信中！
@@ -39,10 +53,10 @@
             <span v-if="item.NewFlag === '1'" class="new">new</span>
           </dt>
           <dd class="listTable-links youlink">
-            <a :href="item.StreamLink" target="_blank" v-if="item.StreamLink">
+            <a v-if="item.StreamLink" :href="item.StreamLink" target="_blank">
               配信アーカイブ
             </a>
-            <a :href="item.MovieLink" target="_blank" v-if="item.MovieLink">
+            <a v-if="item.MovieLink" :href="item.MovieLink" target="_blank">
               実況動画
             </a>
           </dd>
@@ -51,18 +65,6 @@
     </div>
   </div>
 </template>
-
-<script lang="js">
-export default {
-  data() {
-      return{ list: [] }
-    },
-  async fetch() {
-    // const res = await this.$axios.$get("https://ririo.dev/db/movie-list.json")
-    // this.list = res
-  }
-}
-</script>
 
 <style lang="scss">
 $themeColor: orange;

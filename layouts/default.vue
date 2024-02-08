@@ -1,3 +1,5 @@
+<script setup lang="ts"></script>
+
 <template>
   <div class="wrapper">
     <Header />
@@ -7,8 +9,6 @@
     </footer>
   </div>
 </template>
-
-<script setup lang="ts"></script>
 
 <style lang="scss">
 $themeColor: orange;
