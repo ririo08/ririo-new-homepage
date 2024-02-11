@@ -1,31 +1,30 @@
-<script>
-export default {
-  data() {
-    return {
-      isActive: false,
-    }
-  },
-  mounted() {
-    if (window.innerWidth >= 1700)
-      this.isActive = true
-  },
-  methods: {
-    toggleMenu() {
-      this.isActive = !this.isActive
-      console.log('click')
-    },
-    hideMenu() {
-      if (window.innerWidth <= 1700)
-        this.isActive = false
-    },
-  },
+<script setup lang="ts">
+const isActive = ref(false)
+
+onMounted(() => {
+  if (window.innerWidth >= 1700) {
+    isActive.value = true
+  }
+})
+
+function hideMenu() {
+  if (window.innerWidth <= 1700) {
+    isActive.value = false
+  }
 }
+
+const links = [
+  { label: 'リリオのプロフィール', path: '/profile' },
+  { label: 'PCと周辺機器のページ', path: '/pc-spec' },
+  { label: '動画リスト', path: '/movielist' },
+  { label: '活動記録', path: '/history' },
+]
 </script>
 
 <template>
   <div>
     <div class="gnav-button" :class="{ 'gnav-button_on': isActive }">
-      <a id="menuButton" class="gnav-button_link" @click="toggleMenu">
+      <a id="menuButton" class="gnav-button_link" @click="isActive = !isActive">
         <svg
           class="gnav-button_image"
           aria-hidden="true"
@@ -48,28 +47,18 @@ export default {
         <li class="gnav-ul_title">
           Links
         </li>
-        <li class="gnav-ul_li" @click="hideMenu">
-          <NuxtLink to="/profile">
-            リリオのプロフィール
+        <li
+          v-for="link in links"
+          :key="link.label"
+          class="gnav-ul_li"
+          @click="hideMenu"
+        >
+          <NuxtLink :to="link.path">
+            {{ link.label }}
           </NuxtLink>
         </li>
         <li class="gnav-ul_li" @click="hideMenu">
-          <NuxtLink to="/pcSpec">
-            PCと周辺機器のページ
-          </NuxtLink>
-        </li>
-        <li class="gnav-ul_li" @click="hideMenu">
-          <NuxtLink to="/movielist">
-            動画リスト
-          </NuxtLink>
-        </li>
-        <li class="gnav-ul_li" @click="hideMenu">
-          <NuxtLink to="/history">
-            活動記録
-          </NuxtLink>
-        </li>
-        <li class="gnav-ul_li" @click="hideMenu">
-          <a href="https://www.youtube.com/RirioTV/" target="_blank">YouTube チャンネル</a>
+          <a href="https://www.youtube.com/RirioTV" target="_blank">YouTube チャンネル</a>
         </li>
       </ul>
     </nav>
