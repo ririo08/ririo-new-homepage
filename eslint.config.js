@@ -11,4 +11,7 @@ export default antfu({
     tsconfigPath: 'tsconfig.json',
   },
   vue: true,
+  rules: {
+    curly: ['error', 'all'],
+  },
 })
