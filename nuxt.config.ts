@@ -49,10 +49,7 @@ export default defineNuxtConfig({
 
   css: [],
 
-  modules: [
-    '@nuxt/eslint',
-    '@vueuse/nuxt',
-  ],
+  modules: ['@nuxt/eslint', '@vueuse/nuxt', '@nuxtjs/tailwindcss'],
 
   eslint: {
     config: {
