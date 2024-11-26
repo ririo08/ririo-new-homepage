@@ -48,5 +48,17 @@ export default defineNuxtConfig({
   },
 
   css: [],
-  modules: [],
+
+  modules: [
+    '@nuxt/eslint',
+    '@vueuse/nuxt',
+  ],
+
+  eslint: {
+    config: {
+      stylistic: true,
+    },
+  },
+
+  compatibilityDate: '2024-11-27',
 })
