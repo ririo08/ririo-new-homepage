@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
+    "preinstall": "npx only-allow bun",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
@@ -14,11 +14,11 @@
     "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.6.4",
-    "@types/node": "^20.11.16",
-    "eslint": "^8.56.0",
-    "nuxt": "^3.10.1",
-    "sass": "^1.70.0",
-    "typescript": "^5.3.3"
+    "@antfu/eslint-config": "^3.10.0",
+    "@types/node": "^22.10.0",
+    "eslint": "^9.15.0",
+    "nuxt": "^3.14.1592",
+    "sass": "^1.81.0",
+    "typescript": "^5.7.2"
   }
 }
