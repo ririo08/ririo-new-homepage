@@ -2,31 +2,44 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "homepage",
+  title: "リリオのホームページ",
   description: "ririo08's homepage",
 
   srcDir: './docs',
   base: '/homepage/',
 
+  rewrites: {
+    'docs/pcSpec.md': 'docs/pc-spec.md',
+  },
+
+  cleanUrls: true,
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'About', link: '/about' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'About',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'リリオについて', link: '/about' },
+        ]
+      },
+      {
+        text: 'PCと周辺機器のページ',
+        items: [
+          { text: 'PC & Gear DETAIL', link: '/pc-spec' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'youtube', link: 'https://www.youtube.com/@RirioCH' },
+      { icon: 'github', link: 'https://github.com/ririo08' },
+      { icon: 'bluesky', link: 'https://bsky.app/profile/ririo.dev' },
+      { icon: 'x', link: 'https://x.com/ririo08' },
     ]
   }
 })

@@ -7,15 +7,17 @@ hero:
   tagline: vitepress版！
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: YouTube
+      link: https://www.youtube.com/@RirioCH
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: リリオについて
+      link: /about
 ---
 
 <script setup>
-// import LatestVideo from '../components/CustomComponent.vue'
+  import {useNow, useDateFormat} from '@vueuse/core'
+  const now = useNow()
+  const date = useDateFormat(now, 'YYYY/MM/DD HH:mm:ss')
 </script>
 
-<p class="text-red-400">aaa</p>
+{{ date }}

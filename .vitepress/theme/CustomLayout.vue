@@ -14,6 +14,9 @@ const { Layout } = DefaultTheme
 </template>
 
 <style deep>
+.image-container {
+  display: flex;
+}
 /* 邪魔なので非表示！ */
 .image-bg {
   display: none;
