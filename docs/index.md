@@ -4,8 +4,7 @@ layout: home
 
 hero:
   name: "リリオのホームページ"
-  text: "vitepress版！"
-  tagline: ririo08.dev
+  tagline: vitepress版！
   actions:
     - theme: brand
       text: Markdown Examples
@@ -18,3 +17,5 @@ hero:
 <script setup>
 // import LatestVideo from '../components/CustomComponent.vue'
 </script>
+
+<p class="text-red-400">aaa</p>

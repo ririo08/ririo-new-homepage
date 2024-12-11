@@ -12,3 +12,10 @@ const { Layout } = DefaultTheme
     </template>
   </Layout>
 </template>
+
+<style deep>
+/* 邪魔なので非表示！ */
+.image-bg {
+  display: none;
+}
+</style>
